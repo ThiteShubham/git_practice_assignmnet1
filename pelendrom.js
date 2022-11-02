@@ -5,6 +5,9 @@ function pelendrom(str){
     }
     if(str==bag){
         return true;
+    }else{
+        return false
     }
-    return false;
+    
 }
+console.log(pelendrom("subham"));
